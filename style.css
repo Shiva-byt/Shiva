@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 17vh;
+}
+.navbar-brand{
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 30px;
+    }
+    nav a{
+        color: white;
+        font-size: 3vh;
+        font-weight: 700;
+    }
+    nav a:hover{
+        color: black;
+        background-color: red;
+        border-radius: 10px;
+    }
+    nav ul{
+        margin-left: 50vh;
+    }
+
+/* section */
+
+
+.main{
+    background: url("https://img.lovepik.com/photo/20211203/medium/lovepik-portrait-of-foreign-man-picture_501493768.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 120vh;
+}
+.main h3{
+    font-size: 4.4rem;
+    font-weight: 700;
+}
+.main h6{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    line-height: 1;
+    border-bottom: 2px solid rgb(233, 20, 109);
+    width: 40%;
+}
+.main .bt1{
+    height: 55px;
+    width: 138px;
+    background-color: rgb(233, 20, 109);
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.main .bt1:hover{
+    background-color: rgb(202, 18, 95);
+    transition: 0.5s;
+}
+.main .bt2{
+    height: 55px;
+    width: 138px;
+    background-color: transparent;
+    color: rgb(233, 20, 109);
+    outline: none;
+    border: 3px solid rgb(233, 20, 109);
+    font-weight: bold;
+    border-radius: 5px;
+}
+.main .bt2:hover{
+    background-color: rgb(233, 20, 109);
+    transition: 0.5s;
+    color: #fff;
+}
